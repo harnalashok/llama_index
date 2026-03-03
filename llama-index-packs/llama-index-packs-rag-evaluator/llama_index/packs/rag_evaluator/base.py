@@ -6,6 +6,8 @@ from collections import deque
 from typing import Any, List, Optional
 import os
 from pathlib import Path
+from llama_index.llms.ollama import Ollama
+from llama_index.embeddings.ollama import OllamaEmbedding
 
 import pandas as pd
 import tqdm
